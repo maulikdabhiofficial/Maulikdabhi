@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: rgb(91, 91, 91);
+}
+
+.nav-item{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.nav-item1{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.logo{
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.nav-subitem{
+    margin: 10px;
+}
+
+
+.main-1st-item{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+}
+
+.contact-btn{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(255, 0, 55);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+
+h1{
+    color: rgb(255, 0, 55);
+}
+
+.h1-main{
+ text-align: center;
+ margin-top: 30px;
+}
+
+.main-item{
+    /* padding: 30px; */
+}
+
+.fstimg{
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 15px 15px rgb(255, 14, 66);
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-item{
+    margin: 10px;
+    padding: 10px;
+}
+.about-subitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-table{
+    padding: 20px;
+    border-spacing: 30px;
+}
+
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.table-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-table{
+    height: 345px;
+    border-spacing: 60px;
+    width: 80%;
+}
+
+.range{
+    height: 10px;
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    border-radius: 10px;
+}
+
+.percent{
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 55);
+}
+
+.skilltext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-name{
+    display: flex;
+    align-items: center;
+}
+
+.skill-per{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.port-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.port-subitem{
+    margin: 20px;
+}
+
+.port-img{
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.service-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
+}
+
+.service-subitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.ctn-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.nav-subitem:hover, .port-subitem:hover{
+    color: rgb(255, 0, 55);
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    color: rgb(255, 0, 55);
+    background-color: white;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+
+@media (max-width:700px){
+    .nav-subitem{
+        display: none;
+    }
+
+    .nav-item1{
+        display: none;
+    }
+
+    .about, .table-align, .port-item, .service-item, .contact{
+        flex-direction: column;
+    }
+}
